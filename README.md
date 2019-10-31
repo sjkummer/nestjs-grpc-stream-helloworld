@@ -2,7 +2,7 @@ nestjs-grpc-stream-helloworld
 ================
 
 ## About
-This example shows how to use GRPC streams in nestjs. All require protobuf interfaces are generated autmatically. This nestjs backend can also act in both roles: GRPC-Server and GRPC-Client (common code).
+This example shows how to use GRPC streams in nestjs. All required protobuf interfaces are generated autmatically. This example covers both roles: GRPC-Server or GRPC-Client (common code).
 
 ## Run as GRPC Server
 
