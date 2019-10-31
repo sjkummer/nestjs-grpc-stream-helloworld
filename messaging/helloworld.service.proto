@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package demo;
+
+import "common.proto";
+import "helloworld.messages.proto";
+
+service HelloWorldService {
+    rpc SayHello (HelloRequest)                     returns (HelloResponse) {};
+    rpc SubscribeEvents (EventSubscriptionRequest)  returns (stream Event) {};
+}

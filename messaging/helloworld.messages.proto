@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package demo;
+
+import "common.proto";
+
+message HelloRequest {
+    string message = 1;
+}
+
+message HelloResponse {
+    string answer = 1;
+}
+
+message EventSubscriptionRequest {
+    string id = 1;
+}
+
+message Event {
+    string message = 1;
+}

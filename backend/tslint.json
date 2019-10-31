@@ -1,0 +1,23 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {
+    "no-unused-expression": true
+  },
+  "rules": {
+    "quotemark": [false, "single"],
+    "member-access": [false],
+    "ordered-imports": [false],
+    "max-line-length": [true, 150],
+    "member-ordering": [false],
+    "interface-name": [false],
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "whitespace": false,
+    "no-empty": false,
+    "await-promise": true,
+    "promise-function-async": [true, "check-function-declaration", "check-method-declaration"],
+    "no-floating-promises": true
+  },
+  "rulesDirectory": []
+}
