@@ -20,11 +20,16 @@ npm install
 npm run start:client
 ```
 
-## Run as GRPC Client - and connect to a remote server
+### Connect to a remote server
 
 ```js
-cd backend
-npm install
-export CLOUD_SERVER=MY_MACHINE
+export CLOUD_SERVER=MY_REMOTE_SERVER
 npm run start:client
+```
+## Update Protobuf Interfaces
+
+After extending a .PROTO file, the required interfaces for nestjs can be generated as follows:
+```js
+cd backend
+npm run generate:proto
 ```
