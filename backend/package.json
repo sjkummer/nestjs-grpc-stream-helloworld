@@ -43,7 +43,7 @@
     "@sentry/node": "^5.5.0",
     "@types/dotenv": "^6.1.1",
     "@types/systeminformation": "^3.23.1",
-    "bcrypt": "^3.0.0",
+    "bcrypt": "^5.0.0",
     "dotenv": "^8.0.0",
     "google-protobuf": "^3.9.1",
     "grpc": "^1.22.2",
